@@ -55,8 +55,6 @@ section {
         height:68px;
     }
 }
-
-
 footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -65,9 +63,55 @@ footer {
     color: #BDBDBD;
     text-align: center;
     padding-top: 4rem; 
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     a {
         font-weight: 700; 
         color:#BDBDBD;
+    }
+}
+
+@media (min-width: 1440px) {
+    h2 {
+        padding-top: 40px;
+        padding-left:77px;
+        font-size: 24px;
+    }
+    .content{
+        position: relative; 
+        min-height: 65vh;
+        padding-left: 77px;
+        margin-top: 12rem;
+        img{
+            width:539.22px; 
+            height:447.43px; 
+        }
+        .img {
+            float: left;
+            justify-content: unset;
+            padding-right: 80px; 
+            margin: 0;            
+        }
+        section {
+            padding-right: 100px;
+            h1{
+                font-size:64px;
+                line-height: 94px;
+            }
+            p {
+                font-size:24px;
+                line-height: 35px;
+                display: inline-block;
+                width: 380px;
+                padding-top: 3rem;
+            }
+            button{
+                display: block;
+            }
+        }
+    }
+    
+    footer {
+        position: relative; 
+        bottom: 0;
     }
 }
